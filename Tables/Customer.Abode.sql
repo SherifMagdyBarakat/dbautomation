@@ -4,8 +4,6 @@ CREATE TABLE [Customer].[Abode]
 [Person_id] [int] NULL,
 [Address_id] [int] NULL,
 [TypeOfAddress] [varchar] (40) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[Start_date] [datetime] NULL,
-[End_date] [datetime] NULL,
 [ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF__Abode__ModifiedD__4222D4EF] DEFAULT (getdate())
 ) ON [PRIMARY]
 GO
